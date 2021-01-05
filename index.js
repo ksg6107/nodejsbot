@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const token = process.env.token;
 const welcomeChannelName = "🙆ㅣ안녕하세요";
 const byeChannelName = "🙇ㅣ안녕히가세요";
-const welcomeChannelComment = "님 KENZO SEVERR에 오신것을 환영합니다 .";
+const welcomeChannelComment = "님 KENZO SERVER에 오신것을 환영합니다 .";
 const byeChannelComment = "님이 KENZO SERVER에서 나가셨습니다";
 
 client.on('ready', () => {
